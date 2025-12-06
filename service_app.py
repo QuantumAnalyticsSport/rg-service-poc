@@ -143,7 +143,7 @@ st.markdown(
 
 st.sidebar.header("Data")
 
-DATA_PATH = "match_table.csv"
+DATA_PATH = "match_table (1).csv"
 try:
     df = pd.read_csv(DATA_PATH)
 except FileNotFoundError:
